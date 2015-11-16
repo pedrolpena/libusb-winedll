@@ -8,16 +8,17 @@ imcomplete.
 
 --files included are--
 
-libusb-1.0_main.c    -contains wrapper functions around native libusb calls
-libusb-1.0.spec      -spec file that describes the interface as if it were a DLL
-makeit.sh            -script to compile the source files
-README.txt           -this file
+libusb-1.0_main.c        -contains wrapper functions around native libusb calls
+libusb-1.0.spec          -spec file that describes the interface as if it were a DLL
+libusb_function_list.txt -contains list of libusb functions
+makeit.sh                -script to compile the source files
+README.txt               -this file
 
 
 --files that will be created--
 
-libusb-1.0.dll.so    -the fakedll
-libusb-1.0_main.o    -the object file
+libusb-1.0.dll.so        -the fakedll
+libusb-1.0_main.o        -the object file
 
 
 
