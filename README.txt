@@ -1,6 +1,9 @@
 This is a libusb-1.0.dll fakedll so that windows programs running under wine 
 that use libusb can make calls natively to libusb.
 
+functions are currently being added as they are needed so it still may be
+imcomplete.
+
 
 
 --files included are--
