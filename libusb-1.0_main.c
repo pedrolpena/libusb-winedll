@@ -47,7 +47,9 @@ int     __stdcall Libusb_control_transfer(libusb_device_handle *a,uint8_t b, uin
 int     __stdcall Libusb_release_interface(libusb_device_handle *a,int b){return libusb_release_interface(a,b);}
 int     __stdcall Libusb_set_interface_alt_setting(libusb_device_handle *a , int b, int c){return libusb_set_interface_alt_setting(a,b,c);}
 void    __stdcall Libusb_exit(libusb_context *a){}
-
+int     __stdcall Libusb_set_configuration(libusb_device_handle *a,int b){return libusb_set_configuration(a,b);}
+void    __stdcall Libusb_set_debug(libusb_context *a, int b){libusb_set_debug(a,b);}
+void    __stdcall Libusb_free_device_list(libusb_device **a, int b){libusb_free_device_list(a, b);}
 
 
 int main(void){return 0;}//end main

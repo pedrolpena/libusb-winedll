@@ -12,3 +12,6 @@
 11 stdcall libusb_control_transfer(ptr long long long long ptr long ptr) Libusb_control_transfer
 12 stdcall libusb_release_interface(ptr long) Libusb_release_interface
 13 stdcall libusb_set_interface_alt_setting(ptr long long) Libusb_set_interface_alt_setting
+14 stdcall libusb_set_configuration(ptr long) Libusb_set_configuration
+15 stdcall libusb_set_debug(ptr long) Libusb_set_debug
+16 stdcall libusb_free_device_list(ptr long) Libusb_free_device_list
